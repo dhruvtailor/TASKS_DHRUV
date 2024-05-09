@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llMain">
+
+    <TextView
+        android:id="@+id/tvTaskName"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="shooppppdpdppd"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:textSize="16sp"
+        android:textColor="#03045e"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/ivPriority"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/priority"
+        android:padding="4dp" />
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="4dp"
+        android:src="@drawable/delete"/>
+</LinearLayout>
